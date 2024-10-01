@@ -1,0 +1,21 @@
+#root {
+  font-family: Helvetica, Inter, system-ui, Avenir, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Helvetica;
+  font-weight: normal;
+  src: local("Helvetica"), url('./assets/fonts/Helvetica.woff2') format('woff2');
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: Helvetica;
+  font-weight: bold;
+  src: local("Helvetica"), url('./assets/fonts/Helvetica-Bold.woff2') format('woff2');
+  font-display: swap;
+  }
